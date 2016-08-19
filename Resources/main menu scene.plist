@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>MainMenuTitle.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{57, 76}, {272, 36}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 0}, {272, 36}}</string>
+			<key>sourceSize</key>
+			<string>{274, 36}</string>
+		</dict>
+		<key>about-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{326, 124}, {58, 59}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 5}, {58, 59}}</string>
+			<key>sourceSize</key>
+			<string>{66, 67}</string>
+		</dict>
+		<key>about-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{57, 2}, {66, 72}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {66, 72}}</string>
+			<key>sourceSize</key>
+			<string>{66, 74}</string>
+		</dict>
+		<key>achievements-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 78}, {46, 45}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 4}, {46, 45}}</string>
+			<key>sourceSize</key>
+			<string>{56, 53}</string>
+		</dict>
+		<key>achievements-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{167, 179}, {56, 53}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {56, 53}}</string>
+			<key>sourceSize</key>
+			<string>{56, 53}</string>
+		</dict>
+		<key>blitz-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{331, 99}, {99, 23}}</string>
+			<key>offset</key>
+			<string>{-2, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 6}, {99, 23}}</string>
+			<key>sourceSize</key>
+			<string>{109, 33}</string>
+		</dict>
+		<key>blitz-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{214, 2}, {109, 34}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {109, 34}}</string>
+			<key>sourceSize</key>
+			<string>{109, 34}</string>
+		</dict>
+		<key>classic-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{363, 38}, {135, 23}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 6}, {135, 23}}</string>
+			<key>sourceSize</key>
+			<string>{143, 33}</string>
+		</dict>
+		<key>classic-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{214, 38}, {147, 34}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {147, 34}}</string>
+			<key>sourceSize</key>
+			<string>{147, 34}</string>
+		</dict>
+		<key>effects-off.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{432, 99}, {72, 65}}</string>
+			<key>offset</key>
+			<string>{1, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 0}, {72, 65}}</string>
+			<key>sourceSize</key>
+			<string>{76, 67}</string>
+		</dict>
+		<key>effects-on.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{252, 114}, {72, 61}}</string>
+			<key>offset</key>
+			<string>{1, -2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 5}, {72, 61}}</string>
+			<key>sourceSize</key>
+			<string>{76, 67}</string>
+		</dict>
+		<key>gameCenter-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{308, 185}, {45, 44}}</string>
+			<key>offset</key>
+			<string>{1, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 9}, {45, 44}}</string>
+			<key>sourceSize</key>
+			<string>{59, 66}</string>
+		</dict>
+		<key>gameCenter-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{106, 114}, {59, 64}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {59, 64}}</string>
+			<key>sourceSize</key>
+			<string>{59, 66}</string>
+		</dict>
+		<key>help-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 125}, {45, 61}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 4}, {45, 61}}</string>
+			<key>sourceSize</key>
+			<string>{53, 67}</string>
+		</dict>
+		<key>help-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {53, 74}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {53, 74}}</string>
+			<key>sourceSize</key>
+			<string>{53, 74}</string>
+		</dict>
+		<key>leaderBoard-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{386, 166}, {45, 45}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5, 4}, {45, 45}}</string>
+			<key>sourceSize</key>
+			<string>{55, 53}</string>
+		</dict>
+		<key>leaderBoard-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{106, 180}, {55, 53}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {55, 53}}</string>
+			<key>sourceSize</key>
+			<string>{55, 53}</string>
+		</dict>
+		<key>music-off.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{50, 114}, {54, 65}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {54, 65}}</string>
+			<key>sourceSize</key>
+			<string>{54, 67}</string>
+		</dict>
+		<key>music-on.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{252, 177}, {54, 61}}</string>
+			<key>offset</key>
+			<string>{0, -2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 5}, {54, 61}}</string>
+			<key>sourceSize</key>
+			<string>{54, 67}</string>
+		</dict>
+		<key>play-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{125, 2}, {87, 65}}</string>
+			<key>offset</key>
+			<string>{0, -5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 12}, {87, 65}}</string>
+			<key>sourceSize</key>
+			<string>{89, 79}</string>
+		</dict>
+		<key>play-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{167, 114}, {83, 63}}</string>
+			<key>offset</key>
+			<string>{1, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 12}, {83, 63}}</string>
+			<key>sourceSize</key>
+			<string>{89, 79}</string>
+		</dict>
+		<key>requestFriends-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 188}, {45, 45}}</string>
+			<key>offset</key>
+			<string>{1, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6, 4}, {45, 45}}</string>
+			<key>sourceSize</key>
+			<string>{55, 53}</string>
+		</dict>
+		<key>requestFriends-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{49, 181}, {55, 53}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {55, 53}}</string>
+			<key>sourceSize</key>
+			<string>{55, 53}</string>
+		</dict>
+		<key>timeless-normal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{331, 74}, {149, 23}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 5}, {149, 23}}</string>
+			<key>sourceSize</key>
+			<string>{157, 33}</string>
+		</dict>
+		<key>timeless-selected.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{331, 2}, {161, 34}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {161, 34}}</string>
+			<key>sourceSize</key>
+			<string>{161, 34}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 256}</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,252 @@
+     /*                                                   // SHELLS
+	if (phase == 1) {		
+        totalHits = 60;
+		minPerformance = 0.05;
+		generator.minHits = 1;
+		HitGenerator.randomAlphabet = @"BDEF";
+		[tracksLayer setSpeed:middleSpeed];
+		[self changePauseTracks:0.95];
+		Track.random2spaceRatio = 0;
+        phaseMsg = @"Batteries Exposed";
+	} else if( phase == 2){
+        totalHits = 40;
+		minPerformance = 0.15;
+		generator.minHits = 1;
+		HitGenerator.randomAlphabet = @"FDEB";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+                                [NSNumber numberWithFloat:-lowSpeed], [NSNumber numberWithFloat:middleSpeed], [NSNumber numberWithFloat:-hightSpeed],
+                                [NSNumber numberWithFloat:+lowSpeed], [NSNumber numberWithFloat:-middleSpeed],[NSNumber numberWithFloat:hightSpeed], [NSNumber numberWithFloat:-lowSpeed],
+								nil ] ];
+		[self changePauseTracks:0.8];
+		Track.random2spaceRatio = 0.7;
+        phaseMsg = @"Battery Broken";
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+	} else if (phase == 3) {
+		minPerformance = 0.3;
+		generator.minHits = 1;
+        generator.trioStairRatio = 70;
+		HitGenerator.randomAlphabet = @"DBEF";
+		[tracksLayer setSpeed:middleSpeed];
+		[self changePauseTracks:0.8];
+		Track.random2spaceRatio = 0;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+		extraHits = 3;
+        phaseMsg = @"Coolers Exposed";
+	} else if (phase == 4) {
+		minPerformance = 0.5;
+		generator.minHits = 2;
+        generator.trioStairRatio = 60;
+		HitGenerator.randomAlphabet = @"DBEF";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+                                [NSNumber numberWithFloat:-hightSpeed], [NSNumber numberWithFloat:middleSpeed], [NSNumber numberWithFloat:-lowSpeed],
+                                [NSNumber numberWithFloat:+hightSpeed], [NSNumber numberWithFloat:-middleSpeed],[NSNumber numberWithFloat:lowSpeed],
+                                [NSNumber numberWithFloat:-hightSpeed],
+								nil ] ];
+		[self changePauseTracks:0.7];
+		Track.random2spaceRatio = 0.7;
+        phaseMsg = @"Power Low";
+		extraHits = 5;
+	}
+	//						                                 5
+	else if (phase == 5 ) { 
+		totalHits = 20;
+		minPerformance = 0.5;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"FDEB";
+		[self changePauseTracks:0.8];
+		Track.random2spaceRatio = 0.7; // 0;
+		[tracksLayer setSpeed:127.5];
+		extraHits = 6;
+        phaseMsg = @"Solar Panels Gone!";
+	} else if (phase == 6) {
+		totalHits = 10;
+		minPerformance = 0.75;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"DEFX";
+		[tracksLayer setSpeed:127.5];
+		[self changePauseTracks:0.9];
+        generator.trioStairRatio = 70;
+		Track.random2spaceRatio = 0.5;
+        generator.liveHitCount = 2;      // 2 LIVES
+		extraHits = 5;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+        phaseMsg = @"Cooler 1 Burned";
+	} else if (phase == 7) { // 3
+		totalHits = 23;
+		minPerformance = 0.7;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"XDEF";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-25], [NSNumber numberWithFloat:hightSpeed], [NSNumber numberWithFloat:-25],
+								[NSNumber numberWithFloat:+middleSpeed], [NSNumber numberWithFloat:-25],[NSNumber numberWithFloat:middleSpeed],
+                                [NSNumber numberWithFloat:-middleSpeed], 
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+		extraHits = 8;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+        phaseMsg = @"Top Shell is Down!";
+	} 
+                                //						FANS
+	else if (phase == 8) { 
+		totalHits = 26;
+		minPerformance = 0.75;
+		generator.minHits = 3;
+		HitGenerator.randomAlphabet = @"XFBE";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-hightSpeed], [NSNumber numberWithFloat:25], [NSNumber numberWithFloat:-2*hightSpeed],
+								[NSNumber numberWithFloat:+hightSpeed], [NSNumber numberWithFloat:-middleSpeed],[NSNumber numberWithFloat:hightSpeed],[NSNumber numberWithFloat:-25],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+        generator.trioStairRatio = 10;
+        generator.liveHitCount = 2;      
+		extraHits = 8;
+        phaseMsg = @"Backup is Broken!";
+	} else if (phase == 9) {
+		totalHits = 26;
+		minPerformance = 0.8;
+		generator.minHits = 3;
+		HitGenerator.randomAlphabet = @"BEFX";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-middleSpeed], [NSNumber numberWithFloat:hightSpeed], [NSNumber numberWithFloat:-middleSpeed],
+								[NSNumber numberWithFloat:+middleSpeed], [NSNumber numberWithFloat:-hightSpeed],[NSNumber numberWithFloat:25],[NSNumber numberWithFloat:-middleSpeed],
+								nil ] ]; 
+		[self changePauseTracks:0];
+        generator.trioStairRatio = 50;
+		Track.random2spaceRatio = 1;
+		extraHits = 3;
+        phaseMsg = @"Cooler System Out ";
+	} 
+	else if (phase == 10 ) { //						RIGHT SIDE metal1
+		totalHits = 23;
+		minPerformance = 0.7;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"FDEB";
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+		extraHits = 4;
+        generator.jokerHitCount = 2;
+        generator.jokerInterval = 5;
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-25.5f], [NSNumber numberWithFloat:middleSpeed], [NSNumber numberWithFloat:-hightSpeed],
+								[NSNumber numberWithFloat:+hightSpeed], [NSNumber numberWithFloat:-middleSpeed],[NSNumber numberWithFloat:25.5],[NSNumber numberWithFloat:-25.5],
+								nil ] ];
+        phaseMsg = @"Isolation Burned";
+	} else if (phase == 11 ) {  // cables
+		totalHits = 23;
+		minPerformance = 0.90;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"DEFX";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-hightSpeed], [NSNumber numberWithFloat:middleSpeed], [NSNumber numberWithFloat:-25.5],
+								[NSNumber numberWithFloat:+25.5f], [NSNumber numberWithFloat:-middleSpeed],[NSNumber numberWithFloat:hightSpeed],[NSNumber numberWithFloat:-hightSpeed],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+		extraHits = 4;
+        phaseMsg = @"Detecting Intrusion!";
+	} else if (phase == 12 ) { // metal2  SUPER JOKER
+		totalHits = 23;
+		minPerformance = 1;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"DFZX"; // two color 
+		[tracksLayer setSpeed:127.5 ];
+		[self changePauseTracks:1];
+		Track.random2spaceRatio = 1;
+		extraHits = 8;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+        phaseMsg = @"Hacker Detected!";
+	} else if (phase == 13) { // metal3
+		totalHits = 23;
+		minPerformance = 1;
+		generator.minHits = 3;
+		HitGenerator.randomAlphabet = @"XBEZ";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-25], [NSNumber numberWithFloat:hightSpeed], [NSNumber numberWithFloat:-25],
+								[NSNumber numberWithFloat:+middleSpeed], [NSNumber numberWithFloat:-25],[NSNumber numberWithFloat:middleSpeed], [NSNumber numberWithFloat:-hightSpeed],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 0.99;
+		extraHits = 8;
+        phaseMsg = @"Who are you ?";
+	} else if (phase == 14 ) { // lava-hole
+		totalHits = 23;
+		minPerformance = 1.4;
+		generator.minHits = 4;
+		HitGenerator.randomAlphabet = @"DEZX";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-middleSpeed], [NSNumber numberWithFloat:25], [NSNumber numberWithFloat:-middleSpeed],
+								[NSNumber numberWithFloat:+25], [NSNumber numberWithFloat:-hightSpeed],[NSNumber numberWithFloat:25], [NSNumber numberWithFloat:-middleSpeed],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 0.99;
+        generator.liveHitCount = 2;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+		extraHits = 5;
+        phaseMsg = @"You don't understand!";
+	} 
+
+	else if (phase == 15) { //					CHIPS 
+		totalHits = 26;
+		minPerformance = 0.9;
+		generator.minHits = 3;
+		HitGenerator.randomAlphabet = @"YEVW";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-25], [NSNumber numberWithFloat:75], [NSNumber numberWithFloat:-125],
+								[NSNumber numberWithFloat:+175], [NSNumber numberWithFloat:-225],[NSNumber numberWithFloat:-275],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 0.8;
+		extraHits = 4;
+        phaseMsg = @"The World is mine!";
+	} else if (phase == 16) {
+		totalHits = 26;
+		minPerformance = 0.9999;
+		generator.minHits = 4;
+		HitGenerator.randomAlphabet = @"EVWY";
+        [tracksLayer setSpeeds:[NSArray arrayWithObjects:
+                                [NSNumber numberWithFloat:-275], [NSNumber numberWithFloat:225], [NSNumber numberWithFloat:-175],
+                                [NSNumber numberWithFloat:+125], [NSNumber numberWithFloat:-75],[NSNumber numberWithFloat:25], [NSNumber numberWithFloat:-275],
+                                nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+		extraHits = 4;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+        phaseMsg = @"I'll beat you!";
+	} else if (phase == 17) {
+		totalHits = 30;
+		minPerformance = 0.8    ;
+		generator.minHits = 4;
+		HitGenerator.randomAlphabet = @"EVYW";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-25], [NSNumber numberWithFloat:25], [NSNumber numberWithFloat:-25],
+								[NSNumber numberWithFloat:+25], [NSNumber numberWithFloat:-25],[NSNumber numberWithFloat:25],[NSNumber numberWithFloat:-25],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+        generator.jokerHitCount = 1;
+        generator.jokerInterval = 5;
+		extraHits = 4;
+        phaseMsg = @"Enigma will survive!";
+	} else if (phase == 18 ) {
+		totalHits = 30;
+		minPerformance = 0.85;
+		generator.minHits = 2;
+		HitGenerator.randomAlphabet = @"WYVE";
+		[tracksLayer setSpeeds:[NSArray arrayWithObjects:
+								[NSNumber numberWithFloat:-25], [NSNumber numberWithFloat:25], [NSNumber numberWithFloat:-25],
+								[NSNumber numberWithFloat:+25], [NSNumber numberWithFloat:-25],[NSNumber numberWithFloat:25],[NSNumber numberWithFloat:-25],
+								nil ] ];
+		[self changePauseTracks:0];
+		Track.random2spaceRatio = 1;
+		extraHits = 4;
+        phaseMsg = @"";        
+	} */

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>1000 Coins</string>
+		<key>title</key>
+		<string>1000 Coins</string>
+		<key>productIdentifier</key>
+		<string>bundleId.coinPack1</string>
+		<key>productType</key>
+		<string>consumable</string>
+		<key>productImage</key>
+		<string>coinPack1.png</string>
+		<key>familyIdentifier</key>
+		<string>com.startfruitlabs.beatenigma.coins</string>
+		<key>familyQuantity</key>
+		<string>1000</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>2500 Coins</string>
+		<key>title</key>
+		<string>2500 Coins</string>
+		<key>productIdentifier</key>
+		<string>bundleId.coinPack2</string>
+		<key>productType</key>
+		<string>consumable</string>
+		<key>productImage</key>
+		<string>coinPack2.png</string>
+		<key>familyIdentifier</key>
+		<string>com.startfruitlabs.beatenigma.coins</string>
+		<key>familyQuantity</key>
+		<string>2500</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>6000 Coins</string>
+		<key>title</key>
+		<string>6000 Coins</string>
+		<key>productIdentifier</key>
+		<string>bundleId.coinPack3</string>
+		<key>productType</key>
+		<string>consumable</string>
+		<key>productImage</key>
+		<string>coinPack3.png</string>
+		<key>familyIdentifier</key>
+		<string>com.startfruitlabs.beatenigma.coins</string>
+		<key>familyQuantity</key>
+		<string>6000</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Destroy Mines</string>
+		<key>description</key>
+		<string>Don&apos;t waste your coins, use this power up.</string>
+		<key>productIdentifier</key>
+		<string>bundleId.destroyMines</string>
+		<key>productType</key>
+		<string>Nonconsumable</string>
+		<key>productImage</key>
+		<string>destroyMinesPower.png</string>
+		<key>familyIdentifier</key>
+		<string>com.startfruitlabs.beatenigma</string>
+		<key>familyQuantity</key>
+		<string>1</string>
+	</dict>
+</array>
+</plist>

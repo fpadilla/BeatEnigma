@@ -1,0 +1,50 @@
+In file included from /Users/fpadilla/Documents/iphone/iNigma/Classes/TracksLayer.h:10,
+                 from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.h:11,
+                 from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:9:
+/Users/fpadilla/Documents/iphone/iNigma/Classes/Track.h:68: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/Classes/Track.h:68: warning: assign attribute (default) not appropriate for non-gc object property 'selectedSprite'
+In file included from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.h:11,
+                 from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:9:
+/Users/fpadilla/Documents/iphone/iNigma/Classes/TracksLayer.h:52: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/Classes/TracksLayer.h:52: warning: assign attribute (default) not appropriate for non-gc object property 'sprites'
+In file included from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:9:
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.h:32: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.h:32: warning: assign attribute (default) not appropriate for non-gc object property 'tracks'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.h:33: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.h:33: warning: assign attribute (default) not appropriate for non-gc object property 'gameMechanics'
+In file included from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:10:
+/Users/fpadilla/Documents/iphone/iNigma/Classes/Machine.h:24: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/Classes/Machine.h:24: warning: assign attribute (default) not appropriate for non-gc object property 'backLayer'
+/Users/fpadilla/Documents/iphone/iNigma/Classes/Machine.h:25: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/Classes/Machine.h:25: warning: assign attribute (default) not appropriate for non-gc object property 'frontLayer'
+In file included from /Users/fpadilla/Documents/iphone/iNigma/GameMechanics.h:14,
+                 from /Users/fpadilla/Documents/iphone/iNigma/GameFlow.h:10,
+                 from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:11:
+/Users/fpadilla/Documents/iphone/iNigma/HitGenerator.h:55: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/HitGenerator.h:55: warning: assign attribute (default) not appropriate for non-gc object property 'timeRewards'
+/Users/fpadilla/Documents/iphone/iNigma/HitGenerator.h:56: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/HitGenerator.h:56: warning: assign attribute (default) not appropriate for non-gc object property 'randomAlphabet'
+In file included from /Users/fpadilla/Documents/iphone/iNigma/GameFlow.h:10,
+                 from /Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:11:
+/Users/fpadilla/Documents/iphone/iNigma/GameMechanics.h:74: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/GameMechanics.h:74: warning: assign attribute (default) not appropriate for non-gc object property 'levelName'
+/Users/fpadilla/Documents/iphone/iNigma/GameMechanics.h:75: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/fpadilla/Documents/iphone/iNigma/GameMechanics.h:75: warning: assign attribute (default) not appropriate for non-gc object property 'machine'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m: In function '-[StrikeGesture ccTouchBegan:withEvent:]':
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:31: warning: multiple methods named '-pause' found
+/Users/fpadilla/Documents/iphone/iNigma/libs/cocos2d/Platforms/iOS/../../CCDirector.h:258: warning: using '-(void)pause'
+/Users/fpadilla/Documents/iphone/iNigma/libs/CocosDenshion/CocosDenshion.h:144: warning: also found '-(BOOL)pause'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m: In function '-[StrikeGesture ccTouchMoved:withEvent:]':
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:79: warning: 'StrikeGesture' may not respond to '-cancelTouch'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:79: warning: (Messages without a matching method signature
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:79: warning: will be assumed to return 'id' and accept
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:79: warning: '...' as arguments.)
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:87: warning: 'StrikeGesture' may not respond to '-cancelTouch'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m: In function '-[StrikeGesture disableSelectedSprites]':
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:133: warning: 'Track' may not respond to '-disableSelectedSprite'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m: In function '-[StrikeGesture check4TouchTimeOver]':
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:139: warning: unused variable 'now'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m: In function '-[StrikeGesture ccTouchEnded:withEvent:]':
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:150: warning: 'StrikeGesture' may not respond to '-cancelTouch'
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m: At top level:
+/Users/fpadilla/Documents/iphone/iNigma/StrikeGesture.m:171: warning: method possibly missing a [super dealloc] call
